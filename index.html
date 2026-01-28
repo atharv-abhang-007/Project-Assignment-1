@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html>
+<head>
+  <title>ProductHive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ProductHive</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="star-rated.html">Star Rated</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <div class="mb-5 text-center">
+    <img src="producthive-banner.jpg" class="img-fluid">
+  </div>
+
+  <div class="mb-5 text-center">
+    <h2>Explore Products</h2>
+    <p>Click here to review our products</p>
+    <a href="products.html" class="btn btn-primary">View Products</a>
+  </div>
+
+  <div class="mb-5 text-center">
+    <h2>Top Rated Products</h2>
+    <p>Check products loved by users</p>
+    <a href="star-rated.html" class="btn btn-success">View Star Rated</a>
+  </div>
+
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 ProductHive. All rights reserved.
+</footer>
+
+</body>
 </html>
+
